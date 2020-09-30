@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/maxime-groff/zoneson-clone-server/issues"
   },
-  "homepage": "https://github.com/maxime-groff/zoneson-clone-server#readme"
+  "homepage": "https://github.com/maxime-groff/zoneson-clone-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
