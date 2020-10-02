@@ -5,11 +5,12 @@ const Quote = require('../../models/Quotes')
 router.get('/', async (req, res) => {
   try {
     const quotes = await Quote.find()
+    console.log(quotes)
     res.json(quotes)
   }
   catch (err) {
     console.log(err)
-    res.status(500).send("tu fais de la merde")
+    res.status(500).send("error")
   }
 })
 
